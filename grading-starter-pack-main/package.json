@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "dependencies": {
+    "leaflet": "^1.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "5.3.3",
+    "typeface-montserrat": "^1.1.13"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "concurrently": "6.3.0",
+    "joi": "17.4.2",
+    "json-server": "^0.17.3",
+    "sass": "1.43.4"
+  },
+  "scripts": {
+    "start:client": "react-scripts start",
+    "start:server": "node server/server",
+    "start": "concurrently -k -p \"{name}\" -n \"CLIENT,SERVER\" -c \"green,blue\" \"npm:start:client\" \"npm:start:server\"",
+    "build": "react-scripts build",
+    "eslint": "eslint --ext .jsx --ext .js src/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

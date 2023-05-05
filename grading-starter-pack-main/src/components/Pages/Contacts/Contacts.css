@@ -1,0 +1,32 @@
+body {
+    background-image: url("../../../assets/img/contacts-bg.jpg");
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.ContactBlock {
+    color: white;
+}
+
+.ContactBlock h3 {
+    margin-top: 40px;
+}
+
+.contact_header {
+    color: white;
+    font-size: 50px;
+}
+
+.MapBlock {
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}

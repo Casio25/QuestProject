@@ -1,0 +1,58 @@
+.HeaderBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+.active {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    margin-left: auto;
+    /* center horizontally */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav .header-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .header-link:hover {
+    color: #666;
+}
+
+nav .header-link:active {
+    color: #000;
+    font-weight: bold;
+}
+
+nav .header-link:visited {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+.phone_number {
+    margin-left: auto;
+    font-weight: bold;
+    color: white;
+}

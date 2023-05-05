@@ -1,0 +1,10 @@
+/* Set the height of the map container */
+.map-container {
+    height: 500px;
+    width: 700px;
+}
+
+/* Hide the Leaflet attribution control */
+.leaflet-control-attribution {
+    display: none;
+}
