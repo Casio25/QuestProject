@@ -1,10 +1,16 @@
 /* Set the height of the map container */
-.map-container {
-    height: 500px;
-    width: 700px;
+
+.custom-map-container{
+    width: 500px;
+    height: 400px;
+    border-radius: 16px;
+    z-index: 0;
+    overflow: hidden;
 }
+
 
 /* Hide the Leaflet attribution control */
 .leaflet-control-attribution {
     display: none;
 }
+

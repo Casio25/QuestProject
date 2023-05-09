@@ -1,0 +1,14 @@
+body .quest-page-container{
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.quest-page-container {
+   color: white;
+}
+
+.quest-info-main {
+    /* other styles for the quest info main */
+}

@@ -1,0 +1,66 @@
+.FilterBlock{
+    margin-top: 70px;
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+}
+
+
+.filter_values {
+    display: inline-flex;
+    gap: 10px;
+    color: white;
+    margin-right: auto;
+    background-color: grey;
+    border-radius: 8px;
+    padding: 5px;
+}
+nav.filter_values li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: auto;
+    
+}
+
+nav.filter_values li:not(:last-child)::after {
+    content: "";
+    height: 140%;
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.quest_info {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    /* or adjust the width based on your preference */
+}
+
+.filtered_data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+/*to make 3 cards in a row*/
+.card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 10px);
+    }
+}
