@@ -70,6 +70,7 @@ export const QuestFilter = () => {
             {filteredData.map((quest) => (
                 <div className="card" key={quest.id}>
                     <Link to={`/quests/${quest.id}`}>
+                        
                         <img className="quest_img" src={quest.previewImg} alt={quest.previewImg} />
                     </Link>
                     <div className="quest_info">

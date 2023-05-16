@@ -1,4 +1,4 @@
-body .quest-page-container{
+.quest-page-container{
     margin: 0;
     background-size: cover;
     background-position: center;
@@ -7,8 +7,110 @@ body .quest-page-container{
 
 .quest-page-container {
    color: white;
+
+}
+.quest-type{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 144%;
+    color: rgba(242, 137, 15, 1)
+}
+.quest-info-main{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%
+}
+.quest-title{
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 95%;
+}
+.quest-info-details {
+    display: flex;
+    align-items: center;
 }
 
-.quest-info-main {
-    /* other styles for the quest info main */
+.quest-info-details p {
+    margin-right: 20px;
+    margin-top: 200px;
+}
+
+.quest-info-details img {
+    margin-right: 20px;
+    margin-top: 180px;
+}
+.join-game-button{ width: 185px;
+height: 47px;
+position: absolute;
+border: 1px;
+background: #FEC432;
+box-shadow: 0px 2px 30px Ergba (254, 196, 50, 0.5);
+border-radius: 7px;
+margin-top: 40%;
+margin-left: 60%;
+cursor: pointer;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: D#270B00;
+}
+.modal{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    
+    
+}
+.modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.modal-content{
+    background: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
+    color: white;
+    margin-top: -10%;
+    margin-left: 35%;
+    border-radius: 8px;
+    height: 70%;
+    width: 30%;
+}
+.modal-content h2{
+    margin-left: 30%;
+}
+
+.submit-button {
+    display: flex;
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background: #FEC432;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: D#514321;
+    cursor: pointer;
+}
+.join-quest-input{
+ width: 80%;
+height: 53px;
+left: 0;
+margin-top: 20px;
+margin-left: 30px;
+background: #535353;
+opacity: 0.7;
+border-radius: 6px;
 }

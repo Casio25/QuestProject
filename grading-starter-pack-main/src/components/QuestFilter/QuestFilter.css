@@ -36,14 +36,28 @@ nav.filter_values li:not(:last-child)::after {
 }
 
 .quest_info {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     max-width: 250px;
-    /* or adjust the width based on your preference */
+    
+    margin-top: -10%
+}
+.type_count{
+    display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+}
+.people_count {
+    display: inline-block;
+    width: 30px;
 }
 
 .filtered_data {
@@ -57,6 +71,11 @@ nav.filter_values li:not(:last-child)::after {
 .card {
     width: calc(33.33% - 10px);
     margin-bottom: 20px;
+    margin-top: 10px;
+}
+.quest_img{
+    border-radius: 8px;
+    
 }
 
 @media screen and (max-width: 768px) {
